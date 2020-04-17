@@ -1,4 +1,4 @@
 vendor/
-wordpress/wp-admin/
-wordpress/wp-includes/
-wordpress/wp-config.php
+web/wp-admin/
+web/wp-includes/
+web/wp-config.php

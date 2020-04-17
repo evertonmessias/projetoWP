@@ -1,0 +1,17 @@
+#top-bar{
+	
+}
+
+#site-header{
+	
+}
+
+#main{
+	top:70px;
+}
+
+.menu-fixo{
+	z-index: 999;
+	position: fixed !important;
+	top: 0px;
+}

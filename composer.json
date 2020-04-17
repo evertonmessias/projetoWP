@@ -1,0 +1,17 @@
+{
+    "name": "evertonmessias/projetowp",
+    "description": "Projeto em WordPress",
+    "license": "Free",
+    "authors": [
+        {
+            "name": "Everton Messias",
+            "email": "everton.messias@gmail.com"
+        }
+    ],
+     "require": {
+	     "roots/wordpress": "^5.4"
+     },
+     "extra": {
+	     "wordpress-install-dir": "web"
+     }
+}

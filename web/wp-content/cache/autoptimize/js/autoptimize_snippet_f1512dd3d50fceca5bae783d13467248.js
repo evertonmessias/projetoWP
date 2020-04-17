@@ -1,0 +1,1 @@
+$(()=>{$(window).scroll(function(){if($(this).scrollTop()>700){$('.paracima').fadeIn();$('#menuredes2 a').css("color","white");}else{$('.paracima').fadeOut();$('#menuredes2 a').css("color","black");}});};

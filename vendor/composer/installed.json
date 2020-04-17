@@ -1,0 +1,105 @@
+[
+    {
+        "name": "roots/wordpress",
+        "version": "5.4",
+        "version_normalized": "5.4.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/WordPress/WordPress.git",
+            "reference": "5.4"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/WordPress/WordPress/zipball/5.4",
+            "reference": "5.4"
+        },
+        "require": {
+            "php": ">=5.3.2",
+            "roots/wordpress-core-installer": ">=1.0.0"
+        },
+        "time": "2020-03-31T20:06:05+00:00",
+        "type": "wordpress-core",
+        "installation-source": "dist",
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "WordPress Community",
+                "homepage": "https://wordpress.org/about/"
+            }
+        ],
+        "description": "WordPress is web software you can use to create a beautiful website or blog.",
+        "homepage": "https://wordpress.org/",
+        "keywords": [
+            "blog",
+            "cms",
+            "wordpress"
+        ],
+        "funding": [
+            {
+                "url": "https://www.patreon.com/rootsdev",
+                "type": "patreon"
+            }
+        ]
+    },
+    {
+        "name": "roots/wordpress-core-installer",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/roots/wordpress-core-installer.git",
+            "reference": "83744b1ba5bbdb5bb225f47e24da61a6cf6c5b80"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/roots/wordpress-core-installer/zipball/83744b1ba5bbdb5bb225f47e24da61a6cf6c5b80",
+            "reference": "83744b1ba5bbdb5bb225f47e24da61a6cf6c5b80",
+            "shasum": ""
+        },
+        "require": {
+            "composer-plugin-api": "^1.0"
+        },
+        "conflict": {
+            "composer/installers": "<1.0.6"
+        },
+        "replace": {
+            "johnpbloch/wordpress-core-installer": "*"
+        },
+        "require-dev": {
+            "composer/composer": "^1.0",
+            "phpunit/phpunit": ">=4.8.35"
+        },
+        "time": "2018-12-10T00:22:15+00:00",
+        "type": "composer-plugin",
+        "extra": {
+            "class": "Roots\\Composer\\WordPressCorePlugin"
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Roots\\Composer\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-or-later"
+        ],
+        "authors": [
+            {
+                "name": "John P. Bloch",
+                "email": "me@johnpbloch.com"
+            },
+            {
+                "name": "Roots",
+                "email": "team@roots.io"
+            }
+        ],
+        "description": "A custom installer to handle deploying WordPress with composer",
+        "keywords": [
+            "wordpress"
+        ]
+    }
+]
